@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController">
+   <children>
+      <TextField fx:id="selectedCsvFile" layoutX="14.0" layoutY="14.0" prefWidth="148.0" promptText="CSV Datei" />
+      <Button layoutX="162.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenCSVChooser" prefHeight="25.0" prefWidth="50.0" text="File">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="285.0" layoutY="199.0" mnemonicParsing="false" onAction="#UpdateTable" prefHeight="25.0" prefWidth="89.0" text="Aktualisieren" />
+      <TextField fx:id="selectedCsvFile1" layoutX="226.0" layoutY="14.0" prefWidth="148.0" promptText="Datenbank Pfad" />
+      <TextField fx:id="selectedCsvFile11" layoutX="226.0" layoutY="39.0" prefWidth="148.0" promptText="Benutzername" text="SA" />
+      <TextField fx:id="selectedCsvFile111" layoutX="226.0" layoutY="64.0" prefWidth="148.0" promptText="Passwort" />
+      <ProgressBar layoutX="14.0" layoutY="235.0" prefHeight="18.0" prefWidth="362.0" progress="0.0" />
+      <CheckBox fx:id="csvorsql" layoutX="14.0" layoutY="56.0" mnemonicParsing="false" onAction="#setTrue" text="Von CSV auf HSQLDB?" />
+   </children>
+</AnchorPane>

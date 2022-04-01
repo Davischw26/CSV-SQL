@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FXMLController
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=event
+comment2.target=void\ OpenCSVChooser(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ UpdateTable(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ setTrue(javafx.event.ActionEvent)
+numComments=5

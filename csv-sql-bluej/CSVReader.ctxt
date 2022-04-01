@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CSVReader
+comment1.params=path
+comment1.target=void\ setPath(java.lang.String)
+comment2.params=
+comment2.target=java.util.List\ getColumn()
+numComments=3

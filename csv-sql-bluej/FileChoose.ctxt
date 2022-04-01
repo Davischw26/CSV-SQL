@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FileChoose
+comment1.params=FileType
+comment1.target=void\ setFileType(java.lang.String)
+comment2.params=primaryStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment3.params=
+comment3.target=java.lang.String\ getFilePath()
+numComments=4
